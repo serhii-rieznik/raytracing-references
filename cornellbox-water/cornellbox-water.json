@@ -1,0 +1,11 @@
+{
+    "geometry" : "cornellbox-water.obj",
+    "reference-image" : "cornellbox-water.mitsuba.exr",
+    "reference-mitsuba" : "cornellbox-water.xml",
+    "reference-pbrt" : "cornellbox-water.pbrt",
+    "camera" : {
+        "origin" : [0.0, 0.8, 2.05],
+        "target" : [0.0, 0.8, 0.0],
+        "fov" : 90
+    }
+}

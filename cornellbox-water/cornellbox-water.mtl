@@ -1,0 +1,58 @@
+# The water Cornell Box as seen in Henrik Jensen's 
+# "Realistic Image Synthesis Using Photon Mapping" (Page 109 Fig. 9.14) in OBJ format.
+# Note that the real box is not a perfect cube, so
+# the faces are imperfect in this data set.
+#
+# Created by Guedis Cardenas and Morgan McGuire at Williams College, 2011
+# Released into the Public Domain.
+#
+# http://graphics.cs.williams.edu/data
+# http://www.graphics.cornell.edu/online/box/data.html
+#
+
+newmtl water
+    illum 3
+    Ni 1.333
+    Pr 0.1
+    Kd 1.0 1.0 1.0
+    Ks 1.0 1.0 1.0
+    Kt 0.5 1.0 0.5
+
+newmtl leftSphere
+    illum 1
+    Ni 1.5
+    Pr 0.01
+    Kd 1.0 1.0 1.0
+    Ks 1.0 1.0 1.0
+    Kt 1.0 1.0 1.0
+
+newmtl rightSphere
+    illum 2
+    Pr 0.05
+    Ni 1.5
+    Kd 0.5 0.5 0.5
+    Ks 1.0 1.0 1.0
+    Kt 1.0 1.0 1.0
+
+newmtl floor
+    illum 0
+    Ni 1.5
+    Kd 1.0 1.0 1.0
+    Ks 1.0 1.0 1.0
+    Kt 1.0 1.0 1.0
+
+newmtl ceiling
+    illum 0
+    Kd 0.7250 0.7100 0.6800
+
+newmtl backWall
+	Kd 0.7250 0.7100 0.6800
+
+newmtl rightWall
+    Kd 0.161 0.133 0.427
+
+newmtl leftWall
+	Kd 0.6300 0.0650 0.0500
+
+newmtl light
+    Ke 20 20 20

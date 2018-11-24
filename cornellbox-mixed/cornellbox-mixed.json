@@ -1,0 +1,11 @@
+{
+    "geometry" : "cornellbox-mixed.obj",
+    "reference-image" : "cornellbox-mixed.mitsuba.exr",
+    "reference-mitsuba" : "cornellbox-mixed.xml",
+    "reference-pbrt" : "cornellbox-mixed.pbrt",
+    "camera" : {
+        "origin" : [0.0, 1.0, 2.35],
+        "target" : [0.0, 1.0, 0.0],
+        "fov" : 90
+    }
+}

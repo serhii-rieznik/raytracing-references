@@ -9,6 +9,7 @@ Integrator "path" "integer maxdepth" [16777216]
 Sampler "random" "integer pixelsamples" [256]
 
 WorldBegin
+MakeNamedMaterial "light"    "string type" "matte"   "color Kd" [0.0 0.0 0.0]
 MakeNamedMaterial "floor"    "string type" "matte"   "color Kd" [0.4 0.04 0.04]
 MakeNamedMaterial "plate_01" "string type" "plastic" "color Kd" [0.25 0.25 0.5] "color Ks" [1.0 1.0 1.0] "float roughness" [0.005] "bool remaproughness" "false"
 MakeNamedMaterial "plate_02" "string type" "plastic" "color Kd" [0.25 0.25 0.5] "color Ks" [1.0 1.0 1.0] "float roughness" [0.010] "bool remaproughness" "false"
@@ -148,6 +149,7 @@ AttributeEnd
 # Name "l_1_23456"
 AttributeBegin
 AreaLightSource "area" "rgb L" [ 1.234560 1.234560 1.234560 ]
+NamedMaterial "light"
 Shape "trianglemesh"
   "point3 P" [ 
 	3.75 0.8999999762 -0
@@ -1027,6 +1029,7 @@ AttributeEnd
 # Name "l_11_111111"
 AttributeBegin
 AreaLightSource "area" "rgb L" [ 11.111110 11.111110 11.111110 ]
+NamedMaterial "light"
 Shape "trianglemesh"
   "point3 P" [ 
 	1 0.3000000119 -0
@@ -1547,6 +1550,7 @@ AttributeEnd
 # Name "l_901_803"
 AttributeBegin
 AreaLightSource "area" "rgb L" [ 901.802979 901.802979 901.802979 ]
+NamedMaterial "light"
 Shape "trianglemesh"
   "point3 P" [ 
 	-3.75 0.03333000094 -0
@@ -1649,6 +1653,7 @@ AttributeEnd
 # Name "l_100"
 AttributeBegin
 AreaLightSource "area" "rgb L" [ 100.000000 100.000000 100.000000 ]
+NamedMaterial "light"
 Shape "trianglemesh"
   "point3 P" [ 
 	-1.25 0.1000000015 -0

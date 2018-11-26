@@ -1,0 +1,12 @@
+{
+    "geometry" : "furnace-light-sampling.obj",
+    "reference-image" : "furnace-light-sampling.mitsuba.exr",
+    "reference-mitsuba" : "furnace-light-sampling.xml",
+    "reference-pbrt" : "furnace-light-sampling.pbrt",
+    "camera" : {
+        "origin" : [0.0, 0.0, 75.0],
+        "target" : [0.0, 0.0, 0.0],
+        "up" : [0.0, 1.0, 0.0],
+        "fov" : 35.0
+    }
+}

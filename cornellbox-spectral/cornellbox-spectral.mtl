@@ -1,0 +1,12 @@
+newmtl white
+    spectrum_Kd spectrum-white
+
+newmtl red
+    spectrum_Kd spectrum-red
+
+newmtl green
+    spectrum_Kd spectrum-green
+
+newmtl light
+    spectrum_Kd spectrum-black
+    spectrum_Ke spectrum-emitter

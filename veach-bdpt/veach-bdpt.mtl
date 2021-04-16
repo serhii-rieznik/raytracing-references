@@ -1,0 +1,53 @@
+# Blender MTL File: 'None'
+# Material Count: 13
+
+newmtl glass
+illum 3
+Pr 0.001
+Kt 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+
+newmtl leg_1
+Kd 0.5 0.5 0.5
+
+newmtl leg_2
+Kd 0.5 0.5 0.5
+
+newmtl leg_3
+Kd 0.5 0.5 0.5
+
+newmtl leg_4
+Kd 0.5 0.5 0.5
+
+newmtl room
+Kd 0.5 0.5 0.5
+
+newmtl small_light
+Kd 0.5 0.5 0.5
+
+newmtl stand_01
+illum 2
+Pr 0.25
+Ks 1.0 1.0 1.0
+Kd 0.5 0.5 0.5
+
+newmtl stand_02
+illum 2
+Pr 0.25
+Ks 1.0 1.0 1.0
+Kd 0.5 0.5 0.5
+
+newmtl large_light
+illum 2
+Pr 0.25
+Ks 1.0 1.0 1.0
+Kd 0.5 0.5 0.5
+
+newmtl table
+Kd 0.32963 0.257976 0.150292
+
+newmtl large_light_emitter
+Ke 523.257996 523.257996 523.257996
+
+newmtl small_light_emitter
+Ke 12048.200195 9036.150146 6024.100098
